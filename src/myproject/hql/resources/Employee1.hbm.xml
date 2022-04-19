@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+<class name="myproject.hql.entity.Employee1" table="emp3">
+<id name="eno"/>
+<property name="ename"/>
+<property name="esal"/>
+<property name="eaddr"></property>
+
+
+
+
+
+
+</class>
+
+
+
+
+</hibernate-mapping>
