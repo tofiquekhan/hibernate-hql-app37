@@ -1,10 +1,22 @@
 package myproject.hql.entity;
 
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+@Entity
+@Table(name = "emp3")
 public class Employee1 {
 
+	@Id
+	@Column
 	private int eno;
+	@Column
 	private String ename;
+	@Column
 	private float esal;
+	@Column
 	private String eaddr;
 	public int getEno() {
 		return eno;

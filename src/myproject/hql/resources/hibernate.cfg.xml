@@ -12,8 +12,11 @@
 <property name="hbm2ddl.auto">update</property>
 <property name="show_sql">true</property>
 <property name="dialect">org.hibernate.dialect.MySQLDialect</property>
-<mapping resource="myproject/hql/resources/Employee1.hbm.xml"/>
-<mapping resource="myproject/hql/resources/Employee2.hbm.xml"/>
+<!-- <mapping resource="myproject/hql/resources/Employee1.hbm.xml"/>
+<mapping resource="myproject/hql/resources/Employee2.hbm.xml"/> -->
+<mapping class="myproject.hql.entity.Employee1"/>
+<mapping class="myproject.hql.entity.Employee2"/>
+
 </session-factory>
 
 
